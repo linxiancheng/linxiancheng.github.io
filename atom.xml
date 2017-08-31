@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-08-31T07:58:52.849Z</updated>
+  <updated>2017-08-31T08:02:05.408Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,16 +20,18 @@
     <link href="http://yoursite.com/2017/08/30/md%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/08/30/md文档编写学习笔记/</id>
     <published>2017-08-30T01:24:01.000Z</published>
-    <updated>2017-08-31T07:58:52.849Z</updated>
+    <updated>2017-08-31T08:02:05.408Z</updated>
     
     <content type="html"><![CDATA[<h1 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h1><pre><code>#号是用于标题的写法，后面需要跟一个空格
 h1写法是# 我是一级标题  一级标题下会有分割线
 想要几级标题就在前面添加多少个#号 最多是六级标题
-</code></pre><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><pre><code>列表分为2种  无序列表和有序列表
-</code></pre><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><pre><code>使用 * + — 都可以创建无序列表
-</code></pre><h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><a id="more"></a>
-<pre><code>使用1. n. 来创建有序列表 注：前面的序号是根据第一个来算起的
-如果是3\. 开始   那么就是从3算起
+</code></pre><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><pre><code> 列表分为2种  无序列表和有序列表
+### 无序列表 
+    使用 * + — 都可以创建无序列表
+### 有序列表 
+&lt;!--more--&gt;
+使用1. n. 来创建有序列表 注：前面的序号是根据第一个来算起的
+如果是3. 开始   那么就是从3算起
 </code></pre><h1 id="区块"><a href="#区块" class="headerlink" title="区块"></a>区块</h1><pre><code>区块是使用&gt; 来创建的
 区块和标题类似 可以通过多个&gt;来创建区块来表示几级区块
 </code></pre><h1 id="分割线"><a href="#分割线" class="headerlink" title="分割线"></a>分割线</h1><pre><code>分割线使用* — _ 来创建，并且最少3个
@@ -56,10 +58,7 @@ or
     
       &lt;h1 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;#号是用于标题的写法，后面需要跟一个空格
 h1写法是# 我是一级标题  一级标题下会有分割线
-想要几级标题就在前面添加多少个#号 最多是六级标题
-&lt;/code&gt;&lt;/pre&gt;&lt;h1 id=&quot;列表&quot;&gt;&lt;a href=&quot;#列表&quot; class=&quot;headerlink&quot; title=&quot;列表&quot;&gt;&lt;/a&gt;列表&lt;/h1&gt;&lt;pre&gt;&lt;code&gt;列表分为2种  无序列表和有序列表
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;无序列表&quot;&gt;&lt;a href=&quot;#无序列表&quot; class=&quot;headerlink&quot; title=&quot;无序列表&quot;&gt;&lt;/a&gt;无序列表&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;使用 * + — 都可以创建无序列表
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id=&quot;有序列表&quot;&gt;&lt;a href=&quot;#有序列表&quot; class=&quot;headerlink&quot; title=&quot;有序列表&quot;&gt;&lt;/a&gt;有序列表&lt;/h3&gt;
+想要几级标题就在前面添加多少个
     
     </summary>
     
