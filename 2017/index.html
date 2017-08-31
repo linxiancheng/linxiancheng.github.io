@@ -97,18 +97,18 @@
 
 
 
-<meta name="description" content="前期准备清单： &amp;gt; node.js【必须】 &amp;gt; git【必须】 &amp;gt; cnpm 淘宝镜像【可选，但是我在操作过程中使用npm好多错误，推荐使用cnpm】 步骤  安装node.js  地址：http://nodejs.cn/download/   安装git">
+<meta name="description" content="每次部署的步骤，可按以下三步来进行。 hexo clean  hexo generate  hexo deploy 一些常用命令：">
 <meta name="keywords" content="hexo">
 <meta property="og:type" content="article">
-<meta property="og:title" content="使用github+hexo搭建个人博客">
-<meta property="og:url" content="http://yoursite.com/2017/08/29/使用github-hexo搭建个人博客/index.html">
+<meta property="og:title" content="hexo使用">
+<meta property="og:url" content="http://yoursite.com/2017/index.html">
 <meta property="og:site_name" content="林献程-个人博客">
-<meta property="og:description" content="前期准备清单： &amp;gt; node.js【必须】 &amp;gt; git【必须】 &amp;gt; cnpm 淘宝镜像【可选，但是我在操作过程中使用npm好多错误，推荐使用cnpm】 步骤  安装node.js  地址：http://nodejs.cn/download/   安装git">
+<meta property="og:description" content="每次部署的步骤，可按以下三步来进行。 hexo clean  hexo generate  hexo deploy 一些常用命令：">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-08-31T07:38:13.036Z">
+<meta property="og:updated_time" content="2017-08-31T07:37:49.932Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="使用github+hexo搭建个人博客">
-<meta name="twitter:description" content="前期准备清单： &amp;gt; node.js【必须】 &amp;gt; git【必须】 &amp;gt; cnpm 淘宝镜像【可选，但是我在操作过程中使用npm好多错误，推荐使用cnpm】 步骤  安装node.js  地址：http://nodejs.cn/download/   安装git">
+<meta name="twitter:title" content="hexo使用">
+<meta name="twitter:description" content="每次部署的步骤，可按以下三步来进行。 hexo clean  hexo generate  hexo deploy 一些常用命令：">
 
 
 
@@ -138,13 +138,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2017/08/29/使用github-hexo搭建个人博客/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/"/>
 
 
 
 
 
-  <title>使用github+hexo搭建个人博客 | 林献程-个人博客</title>
+  <title>hexo使用 | 林献程-个人博客</title>
   
 
 
@@ -281,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/08/29/使用github-hexo搭建个人博客/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="林献程">
@@ -298,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">使用github+hexo搭建个人博客</h1>
+          <h1 class="post-title" itemprop="name headline">hexo使用</h1>
         
 
         <div class="post-meta">
@@ -310,7 +310,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-29T18:02:34+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-08-29T17:49:22+08:00">
                 2017-08-29
               </time>
             
@@ -370,34 +370,22 @@
       
 
       
-        <h3 id="前期准备"><a href="#前期准备" class="headerlink" title="前期准备"></a>前期准备</h3><pre><code>清单：
-&gt; node.js【必须】
-&gt; git【必须】
-&gt; cnpm 淘宝镜像【可选，但是我在操作过程中使用npm好多错误，推荐使用cnpm】
-</code></pre><h3 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h3><p>  安装node.js<br>  地址：<code>http://nodejs.cn/download/</code></p>
-<p>  安装git</p>
-  <a id="more"></a>
-<p>  地址：<code>https://git-scm.com/downloads</code></p>
-<p>  安装好node之后就可以安装淘宝镜像(cnpm)<br>  打开命令行cmd输入 <code>$ npm install -g cnpm --registry=https://registry.npm.taobao.org</code></p>
-<p>  安装hexo</p>
-<p>  <strong>注意：之后的操作都是在git bash 里</strong></p>
-<p>  <strong>npm安装不了或者报错就使用cnpm安装</strong></p>
-<ol>
-<li><code>npm install -g hexo</code></li>
-<li>在一个目录创建一个文件夹做本地博客存放地址</li>
-<li>命令行进入该文件夹里输入<code>hexo init</code></li>
-<li>安装依赖 <code>npm install</code></li>
-<li><code>hexo g</code> 生成网站</li>
-<li><code>hexo s</code> 启动本地服务器 网站会执行在<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> （4000可在 _config.yml 设定）</li>
-<li>打开 _config.yml文件在最后改成 注意：地址换成你自己的</li>
-</ol>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">deploy:</div><div class="line">type: git</div><div class="line">repository: https://github.com/linxiancheng/linxiancheng.github.io.git</div><div class="line">branch: master</div></pre></td></tr></table></figure>
-<h3 id="关联本地与github"><a href="#关联本地与github" class="headerlink" title="关联本地与github"></a>关联本地与github</h3><ul>
-<li>在github上创建项目</li>
-<li>创建ssh钥匙<code>ssh-keygen -t rsa -C &quot;296011508@qq.com&quot;</code>邮箱换成你自己的</li>
-<li>打开github添加ssh,用id_rsa.pub内容</li>
-<li>命令行输入<code>hexo g -d</code> 这时候输入你的github地址就能显示出来了</li>
-</ul>
+        <p>每次部署的步骤，可按以下三步来进行。</p>
+<pre><code>hexo clean
+
+hexo generate
+
+hexo deploy
+</code></pre><p>一些常用命令：</p>
+<a id="more"></a>
+<p>hexo new”postName” #新建文章</p>
+<p>hexo new page”pageName” #新建页面</p>
+<p>hexo generate #生成静态页面至public目录</p>
+<p>hexo server #开启预览访问端口（默认端口4000，’ctrl + c’关闭server）</p>
+<p>hexo deploy #将.deploy目录部署到GitHub</p>
+<p>hexo help # 查看帮助</p>
+<p>hexo version #查看Hexo的版本</p>
+<p>hexo会显示全文出来可以使用来分割内容显示<br>在文章中使用<!--more--> 手动进行截断</p>
 
       
     </div>
@@ -428,18 +416,14 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2017/08/29/hexo使用/" rel="next" title="hexo使用">
-                <i class="fa fa-chevron-left"></i> hexo使用
-              </a>
-            
           </div>
 
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2017/08/30/md文档编写学习笔记/" rel="prev" title="md文件编写学习笔记">
-                md文件编写学习笔记 <i class="fa fa-chevron-right"></i>
+              <a href="/2017/" rel="prev" title="使用github+hexo搭建个人博客">
+                使用github+hexo搭建个人博客 <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
@@ -492,17 +476,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview sidebar-panel">
+      <section class="site-overview sidebar-panel sidebar-panel-active">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           
             <img class="site-author-image" itemprop="image"
@@ -598,22 +573,6 @@
 
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#前期准备"><span class="nav-number">1.</span> <span class="nav-text">前期准备</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#步骤"><span class="nav-number">2.</span> <span class="nav-text">步骤</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#关联本地与github"><span class="nav-number">3.</span> <span class="nav-text">关联本地与github</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       

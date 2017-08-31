@@ -17,8 +17,8 @@
   
   <entry>
     <title>md文件编写学习笔记</title>
-    <link href="http://yoursite.com/2017/08/30/md%E6%96%87%E6%A1%A3%E7%BC%96%E5%86%99%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://yoursite.com/2017/08/30/md文档编写学习笔记/</id>
+    <link href="http://yoursite.com/2017/"/>
+    <id>http://yoursite.com/2017/</id>
     <published>2017-08-30T01:24:01.000Z</published>
     <updated>2017-08-31T07:52:37.566Z</updated>
     
@@ -72,8 +72,8 @@ h1写法是# 我是一级标题  一级标题下会有分割线
   
   <entry>
     <title>使用github+hexo搭建个人博客</title>
-    <link href="http://yoursite.com/2017/08/29/%E4%BD%BF%E7%94%A8github-hexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://yoursite.com/2017/08/29/使用github-hexo搭建个人博客/</id>
+    <link href="http://yoursite.com/2017/"/>
+    <id>http://yoursite.com/2017/</id>
     <published>2017-08-29T10:02:34.000Z</published>
     <updated>2017-08-31T07:38:13.036Z</updated>
     
@@ -127,8 +127,8 @@ h1写法是# 我是一级标题  一级标题下会有分割线
   
   <entry>
     <title>hexo使用</title>
-    <link href="http://yoursite.com/2017/08/29/hexo%E4%BD%BF%E7%94%A8/"/>
-    <id>http://yoursite.com/2017/08/29/hexo使用/</id>
+    <link href="http://yoursite.com/2017/"/>
+    <id>http://yoursite.com/2017/</id>
     <published>2017-08-29T09:49:22.000Z</published>
     <updated>2017-08-31T07:37:49.932Z</updated>
     
