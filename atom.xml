@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-01T05:37:39.422Z</updated>
+  <updated>2017-09-01T05:45:48.253Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/01/%E5%AD%A6%E4%B9%A0webpack%E5%B7%A5%E5%85%B7/"/>
     <id>http://yoursite.com/2017/09/01/学习webpack工具/</id>
     <published>2017-09-01T02:52:13.000Z</published>
-    <updated>2017-09-01T05:37:39.422Z</updated>
+    <updated>2017-09-01T05:45:48.253Z</updated>
     
     <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><blockquote>
 <p>   使用webpack工具之前必须安装node.js</p>
@@ -37,7 +37,7 @@
 </blockquote>
 </li>
 <li><p>使用webpack打包index.js文件</p>
-</li>
+<a id="more"></a></li>
 <li><p><code>webpack index.js js.js</code> //把index.js打包，打包后的文件是js.js</p>
 <blockquote>
 <p>   html文件引入的是js.js这个文件</p>
@@ -98,7 +98,19 @@
     
       &lt;h3 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h3&gt;&lt;blockquote&gt;
 &lt;p&gt;   使用webpack工具之前必须安装node.js&lt;/p&gt;
-&lt;p&gt;   然后使用npm或者cnpm来安装web
+&lt;p&gt;   然后使用npm或者cnpm来安装webpack&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;code&gt;npm install -g webpack&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;创建项目文件夹&lt;code&gt;mkdir demo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;在demo创建js文件与html文件&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;   echo ‘document.write(“It works.”);’ &amp;gt;&amp;gt; index.js&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用webpack打包index.js文件&lt;/p&gt;
     
     </summary>
     
