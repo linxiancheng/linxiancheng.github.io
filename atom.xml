@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-01T08:20:26.729Z</updated>
+  <updated>2017-09-09T06:58:09.244Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://yoursite.com/2017/09/08/react%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://yoursite.com/2017/09/08/react学习笔记/</id>
+    <published>2017-09-08T02:21:13.649Z</published>
+    <updated>2017-09-09T06:58:09.244Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><pre><code>&gt; 初始化：
+`npm install -g create-react-app`
+
+&gt; 创建项目：
+`create-react-app demo`
+
+&gt; 打开项目文件：
+`cd demo`后运行`npm start`这个就和vue-cli一样搭建一个初始化项目
+</code></pre><h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><pre><code>&gt; 引入文件：
+import React from &apos;react&apos; 或者 import React from &apos;./src/mian.css&apos;;
+
+&gt; 注册组件：
+class Header extends Component { //注册一个叫Header的组件,注:这的文件第一个字母必须大写
+      render () {
+          const cur = &apos;cur&apos;
+        return (  
+         //里面的内容只能有一个父节点，里面使用表达式：{ 表达式 }，添加class是使用className添加
+         //添加label 的for使用htmlFor
+          &lt;div className=&apos;{cur}&apos;&gt;
+              内容{(function(){retrun &apos;body&apos;})()}
+          &lt;/div&gt;
+        }
+        )
+      }
+    }
+
+&gt; 组件套用:
+注册好组件后使用&lt;组件名 /&gt;进行套用
+</code></pre><h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><pre><code>&gt; 使用
+使用点击事件：&lt;span onClick={this.click}&gt;&lt;/span&gt; 
+// 与原生js一样使用onClick，后面跟着是表达式，并使用的是this.方法来使用
+&gt; 事件监听
+事件监听方法需要手动 bind 到当前实例
+//每个事件监听都会传入一个event对象
+</code></pre><h3 id="组件的state与setState"><a href="#组件的state与setState" class="headerlink" title="组件的state与setState"></a>组件的state与setState</h3><pre><code>&gt; 说明：
+setState方法由父类提供
+&gt; 注意：
+setState方法接受一个对象或者函数作为参数
+setState({})
+</code></pre><h3 id="函数式组件"><a href="#函数式组件" class="headerlink" title="函数式组件"></a>函数式组件</h3><pre><code>&gt; 写法：
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line">const HelloWorld = (props) =&gt; &#123;</div><div class="line">	  const sayHi = (event) =&gt; alert(&apos;Hello World&apos;)</div><div class="line">	  return (</div><div class="line">	    &lt;div onClick=&#123;sayHi&#125;&gt;Hello World&lt;/div&gt;</div><div class="line">	  )</div><div class="line">	&#125;</div></pre></td></tr></table></figure>
+
+&gt; 注意：
+函数式组件只能接受 props 和提供 render 方法的类组件。
+</code></pre><h3 id="列表数据"><a href="#列表数据" class="headerlink" title="列表数据"></a>列表数据</h3><pre><code>&gt; 
+</code></pre>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;开始&quot;&gt;&lt;a href=&quot;#开始&quot; class=&quot;headerlink&quot; title=&quot;开始&quot;&gt;&lt;/a&gt;开始&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;gt; 初始化：
+`npm install -g create-react-app`
+
+&amp;gt; 创建项目：
+`creat
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>学习webpack工具</title>
