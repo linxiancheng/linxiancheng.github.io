@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-13T09:37:26.067Z</updated>
+  <updated>2017-09-13T10:26:12.288Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/05/react%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/09/05/react学习笔记/</id>
     <published>2017-09-05T01:24:01.000Z</published>
-    <updated>2017-09-13T09:37:26.067Z</updated>
+    <updated>2017-09-13T10:26:12.288Z</updated>
     
     <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><pre><code>&gt; 初始化：
 `npm install -g create-react-app`
@@ -115,8 +115,7 @@ dangerouslySetInnerHTML={{__html:'<p>我是一个段落</p>'}}
 头部引入：`import PropTypes from &apos;prop-types&apos;`
 然后传参的组件内部使用`static propTypes = {参数:PropTypes.类型}`
 强制输入`PropTypes.object.isRequired`
-</code></pre><p>132</p>
-]]></content>
+</code></pre>]]></content>
     
     <summary type="html">
     
