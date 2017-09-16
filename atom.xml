@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-09-14T06:39:05.486Z</updated>
+  <updated>2017-09-14T07:07:53.520Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/09/05/react%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2017/09/05/react学习笔记/</id>
     <published>2017-09-05T01:24:01.000Z</published>
-    <updated>2017-09-14T06:39:05.486Z</updated>
+    <updated>2017-09-14T07:07:53.520Z</updated>
     
     <content type="html"><![CDATA[<h3 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h3><pre><code>&gt; 初始化：
 `npm install -g create-react-app`
@@ -48,9 +48,19 @@ class Header extends Component { //注册一个叫Header的组件,注:这的文�
         )
       }
     }
+    或者
+var HelloMessage = React.createClass({
+    render: function() {
+      return &lt;h1 className=&quot;a&quot;&gt;Hello {this.props.name}&lt;/h1&gt;;
+    }
+  });
 
 &gt; 组件套用:
 注册好组件后使用&lt;组件名 /&gt;进行套用
+ReactDOM.render(
+    &lt;HelloMessage name=&quot;John&quot; /&gt;,
+    document.getElementById(&apos;example&apos;)
+  );
 </code></pre><h3 id="事件"><a href="#事件" class="headerlink" title="事件"></a>事件</h3><pre><code>&gt; 使用
 使用点击事件：&lt;span onClick={this.click}&gt;&lt;/span&gt; 
 // 与原生js一样使用onClick，后面跟着是表达式，并使用的是this.方法来使用
